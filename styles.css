@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(154, 137, 170);
+}
+h1{
+    color: #fff;
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 58px;
+}
+div{
+    *width: 300px;
+    background-color: chartreuse;
+    padding: 20px;
+    text-align: center;
+}
+span {
+    background-color: rgb(127, 89, 98);
+    padding: 20px;
+    text-align: center;
+
+}
+
+.green-color {
+    color: rgb(89, 186, 89);
+    font-size: 30px;
+}
+
+.blu-color {
+    color: rgb(255, 0, 162);
+ 
+}
