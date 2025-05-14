@@ -6,12 +6,24 @@
     <link rel="stylesheet" href="styles.css">
     <title>My first page</title>
 </head>
-<body>
-  <header></header>
-
+<body>  <!--Це весь документ -->
+  <header>
+    <div class="logo">LOGO</div> <!--Логотип -->
+    
+    <ul class="menu">
+  <li>
+    <a href="#"instagram>Instagram </a>
+  </li> <!--елементи з абзацу -->
+  <li>
+    <a href="#">facebook</a>
+  </li>
+  <li>
+    <a href="#">linkedin</a>
+  </li>
+</ul> <!--Маркований список -->
+  </header>
   <main>
-
-   <section class="h_section">
+   <section class="h_section"> <!--Розбиваємо весь контент по класам -->
   <h1>My first title</h1> 
  <!--Це головний тайтл Н1 використовується тільки 1 раз на сторінці-->
    <h2>This is h2 </h2> <!--Це тайтл Н2 використовується для абзаців-->
@@ -21,48 +33,57 @@
    <h6>This is h6</h6> <!--Це тайтл Н6 -->
 </section> 
 
+<section class="p_section"> 
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam incidunt minima eveniet ipsam delectus asperiores re
     pellat eligendi at quod, optio rerum fugit. Excepturi minima est quas delectus a cupiditate.</p> <!--Це текст -->
     <p>keh</p> <!--Це текст параграфу -->
+</section>
 
-    <div>
-  <h2>some text</h2>
+    <div class="first">
+  <h2 class="title_first">some text</h2>
   <p>text gsfbv rhnfvjnf hbdjn</p>   
     </div> <!-- пакування інформації, інформація в окремому блоці, фіксований контейнер зі своїм стилем, займає всю ширину екран, але задавати параметри-->
 
     <span>I am span tag</span> <!--це рядковий тег, займає стільки місця = скільки тексту написано -->
 
-   <p><span class="green-color">T</span>ext new</p> 
+   <p><span class="green-color">T</span>ext new</p>  <!-- виділити частково текс іншин кольором-->
 
     <p><span class="blu-color">T</span>ext new</p>
-        <hr>
+      
+<hr>
+<br>
+        <div class="line"> </div> <!-- hr - сепаратор розділення лінія, заміна hr-->
 
-        </div class="line"> </div>
-       <p>Text here and <strong> Strong text here</strong></p>
+       <p>Text here and <strong> Strong text here</strong></p> <!-- strong - шрифт жирним-->
        
-        <p>Text here and <em>  text here</em></p>
+        <p>Text here and <em>  text here</em></p> <!-- em - шрифт курсів-->
         <br> <!--переносить текст -->
-        <a href="https://www.youtube.com/watch?v=FprNI1AVE1A"> Youtube linke 1 </a> <!-- вставити посилання на сайт -->
+        <a href="https://www.youtube.com/watch?v=FprNI1AVE1A"> Youtube linke 1 </a> <!-- вставити посилання на сайт, не забувати про назву-->
         <br>
-<a href="https://www.youtube.com/watch?v=FprNI1AVE1A"/ target="_blank">  Youtube linke 2 </a> <!-- вставити посилання на сайт з відк у новому вікні -->
+<a href="https://www.youtube.com/watch?v=FprNI1AVE1A"/ target="_blank">  Youtube linke 2 </a> <!-- "a+target" вставити посилання на сайт з відк у новому вікні -->
 
-<img src="nature.jpg" alt="тут має бути картинка природи" <!--вставити картинку, опис що має бути-->
+<img src="nature.jpg" alt="тут має бути картинка природи"  <!--картинки-->
 
 
-<p><div class="test_1"> <em>Test text new</em></div></p>
-<ul>
-  <li><a href="#"instagram></a></li> <!--елементи з абзацу -->
-  <li>facebook</li>
-  <li>likt</li>
-</ul>
+<div class="test_1"> <em>Test text new</em></div>
+
+<div id="test_id">This text ID </div> <!-- у styles звертатись через #, id > div > class -->
+
+
 
 <ol>
   <li> test_1</li>
   <li> test_2</li>
-</ol>
+</ol> <!--Нумерований список -->
 
-<form action="">
-  <label>імя:int</label>
+<form action=""> <!--формування формули -->
+  <div><label for="">імя: <input type="text"></label></div>
+  <div><input type="text"></div> <!--поле для введення інформації div використовувати не обовязково -->
+  <input type="email">
+  <input type="password">
+  <textarea name="" id=""></textarea> <!--поле для введення великої кіл-ті інформації-->
+  <input type="submit" value="Send"> <!--value підписання кнопки-->
+  <button>Button</button>
 </form>
 </main>
 
