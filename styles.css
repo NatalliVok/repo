@@ -84,3 +84,8 @@ textarea {
     color: aquamarine;
     background-color: red;
   }
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
