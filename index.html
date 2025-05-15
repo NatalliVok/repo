@@ -4,114 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>My first page</title>
 </head>
 <body>  <!--Це весь документ -->
-  <header>
-    <div class="logo">LOGO</div> <!--Логотип -->
-    
-    <ul class="menu">
-  <li>
-    <a href="#"instagram>Instagram </a>
-  </li> <!--елементи з абзацу -->
-  <li>
-    <a href="#">facebook</a>
-  </li>
-  <li>
-    <a href="#">linkedin</a>
-  </li>
-</ul> <!--Маркований список -->
-  </header>
-  <main>
-   <section class="h_section"> <!--Розбиваємо весь контент по класам -->
-  <h1>My first title</h1> 
- <!--Це головний тайтл Н1 використовується тільки 1 раз на сторінці-->
-   <h2>This is h2 </h2> <!--Це тайтл Н2 використовується для абзаців-->
-   <h3>This is h3</h3> <!--Це тайтл Н3 -->
-   <h4>This is h4</h4> <!--Це тайтл Н4 -->
-   <h5>This is h5</h5> <!--Це тайтл Н5 -->
-   <h6>This is h6</h6> <!--Це тайтл Н6 -->
-</section> 
-
-<section class="p_section"> 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam incidunt minima eveniet ipsam delectus asperiores re
-    pellat eligendi at quod, optio rerum fugit. Excepturi minima est quas delectus a cupiditate.</p> <!--Це текст -->
-    <p>keh</p> <!--Це текст параграфу -->
-</section>
-
-    <div class="first">
-  <h2 class="title_first">some text</h2>
-  <p>text gsfbv rhnfvjnf hbdjn</p>   
-    </div> <!-- пакування інформації, інформація в окремому блоці, фіксований контейнер зі своїм стилем, займає всю ширину екран, але задавати параметри-->
-
-    <span>I am span tag</span> <!--це рядковий тег, займає стільки місця = скільки тексту написано -->
-
-   <p><span class="green-color">T</span>ext new</p>  <!-- виділити частково текс іншин кольором-->
-
-    <p><span class="blu-color">T</span>ext new</p>
+    <header>
+      <div class="logo">LOGO</div> <!--Логотип -->
       
-<hr>
-<br>
-        <div class="line"> </div> <!-- hr - сепаратор розділення лінія, заміна hr-->
+      <ul class="menu">
+    <li>
+      <a href="#"instagram>Instagram </a>
+    </li> <!--елементи з абзацу -->
+    <li>
+      <a href="#">facebook</a>
+    </li>
+    <li>
+      <a href="#">linkedin</a>
+    </li>
+  </ul> <!--Маркований список -->
+    </header>
+    <main>
+    <section class="h_section"> <!--Розбиваємо весь контент по класам -->
+    <h1>My first title</h1> <!--Це головний тайтл Н1 використовується тільки 1 раз на сторінці-->
+    <h2>This is h2 </h2> <!--Це тайтл Н2 використовується для абзаців-->
+    <h3>This is h3</h3> <!--Це тайтл Н3 -->
+    <h4>This is h4</h4> <!--Це тайтл Н4 -->
+    <h5>This is h5</h5> <!--Це тайтл Н5 -->
+    <h6>This is h6</h6> <!--Це тайтл Н6 -->
+  </section> 
 
-       <p>Text here and <strong> Strong text here</strong></p> <!-- strong - шрифт жирним-->
-       
-        <p>Text here and <em>  text here</em></p> <!-- em - шрифт курсів-->
-        <br> <!--переносить текст -->
-        <a href="https://www.youtube.com"> Youtube linke 1 </a> <!-- вставити посилання на сайт, не забувати про назву-->
-        <br>
-<a href="https://www.youtube.com/watch?v=FprNI1AVE1A"/ target="_blank">  Youtube linke 2 </a> <!-- "a+target" вставити посилання на сайт з відк у новому вікні -->
+  <section class="p_section"> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam incidunt minima eveniet ipsam delectus asperiores re
+      pellat eligendi at quod, optio rerum fugit. Excepturi minima est quas delectus a cupiditate.</p> <!--Це текст -->
+      <p>keh</p> <!--Це текст параграфу -->
+  </section>
 
-<img src="nature.jpg" alt="тут має бути картинка природи"  <!--картинки-->
+  <div class="first">
+    <h2 class="title_first">some text</h2>
+    <p>text gsfbv rhnfvjnf hbdjn</p>   
+  </div> <!-- пакування інформації, інформація в окремому блоці, фіксований контейнер зі своїм стилем, займає всю ширину екран, але задавати параметри-->
 
+  <span>I am span tag</span> <!--це рядковий тег, займає стільки місця = скільки тексту написано -->
 
-<div class="test_1"> <em>Test text new</em></div>
+  <p><span class="green-color">T</span>ext new</p>  <!-- виділити частково текс іншин кольором-->
 
-<div id="test_id">This text ID </div> <!-- у styles звертатись через #, id > div > class -->
+  <p><span class="blu-color">T</span>ext new</p>
+        
+  <hr>
+  <br>
+  <div class="line"> </div> <!-- hr - сепаратор розділення лінія, заміна hr-->
 
+  <p>Text here and <strong> Strong text here</strong></p> <!-- strong - шрифт жирним-->
+        
+  <p>Text here and <em>  text here</em></p> <!-- em - шрифт курсів-->
+  <br> <!--переносить текст -->
+  <a href="https://www.youtube.com"> Youtube linke 1 </a> <!-- вставити посилання на сайт, не забувати про назву-->
+  <br>
+  <a href="https://www.youtube.com/watch?v=FprNI1AVE1A"/ target="_blank">  Youtube linke 2 </a> <!-- "a+target" вставити посилання на сайт з відк у новому вікні -->
 
+  <img src="nature.jpg" alt="тут має бути картинка природи"  <!--картинки-->
 
-<ol>
-  <li> test_1</li>
-  <li> test_2</li>
-</ol> <!--Нумерований список -->
+  <div class="test_1"> <em>Test text new</em></div>
 
-<form action=""> <!--формування формули -->
-  <div><label for="">імя: <input type="text"></label></div>
-  <div><input type="text"></div> <!--поле для введення інформації div використовувати не обовязково -->
-  <input type="email">
-  <input type="password">
-  <textarea name="" id=""></textarea> <!--поле для введення великої кіл-ті інформації-->
-  <input type="submit" value="Send"> <!--value підписання кнопки-->
-  <button>Button</button>
-</form>
-<br>
-<table border="1">
-    <tr>
-      <th>Name</th> 
-       <th>Age</th> <!--th заголовок таблиці-->
-    </tr> <!--тег віповідає  за рядки th заголовок-->
-    
-    <tr> <td rowspan="2">test</td></tr> <!--rowspan обєднує декілька комірок-->
-    
-    <tr> <td>test</td></tr>
-    
-    <tr> 
-      <td>Natalli</td> 
-      <td>37</td>
-      <td>xxxx</td>
-      <td>yyyy</td>
-    </tr>
-     <tr>
-      <td>Nata</td>
-      <td>38</td>
-    </tr>
+  <div id="test_id">This text ID </div> <!-- у styles звертатись через #, id > div > class -->
+
+  <ol>
+    <li> test_1</li>
+    <li> test_2</li>
+  </ol> <!--Нумерований список -->
+
+  <form action=""> <!--формування формули -->
+    <div><label for="">імя: <input type="text"></label></div>
+    <div><input type="text"></div> <!--поле для введення інформації div використовувати не обовязково -->
+    <input type="email">
+    <input type="password">
+    <textarea name="" id=""></textarea> <!--поле для введення великої кіл-ті інформації-->
+    <input type="submit" value="Send"> <!--value підписання кнопки-->
+    <button>Button</button>
+  </form>
+  <br>
+  <table border="1">
+      <tr>
+        <th>Name</th> 
+        <th>Age</th> <!--th заголовок таблиці-->
+      </tr> <!--тег віповідає  за рядки th заголовок-->
+      
+      <tr>
+        <td rowspan="2">test</td>
+      </tr> <!--rowspan обєднує декілька комірок-->
+      
+      <tr>
+        <td>test</td>
+      </tr>
+      
+      <tr> 
+        <td>Natalli</td> 
+        <td>37</td>
+        <td>xxxx</td>
+        <td>yyyy</td>
+      </tr>
+      <tr>
+        <td>Nata</td>
+        <td>38</td>
+      </tr>
       <tr>
         <td colspan="2">Обєднані клітинки</td>
-      </tr>
-
-      <!--тег віповідає  за  стовпчики-->
+      </tr> <!--тег віповідає  за  стовпчики-->
+   
+    
   </table> <!--таблиця-->
+
+  <div class="div_class" id="div_id" style="color: chartreuse;">This is div tag</div>
+<br>
+
+  <p>I come from a small, close-knit family. I share my home with my mother, father, and little sister. My mom, Anna, is a dedicated teacher, and my dad, John, is a skilled doctor. My ten-year-old sister, Lily, is brimming with energy and enthusiasm. We live in a lovely, comfortable house, and I feel so lucky to have them in my life.</p><!--підключення шрифтів-->
+<br>
+  <div class="container"> <p>I come from a small, close-knit family. I share my home with my mother, father, and little sister. My mom, Anna, is a dedicated teacher, and my dad, John, is a skilled doctor. My ten-year-old sister, Lily, is brimming with energy and enthusiasm. We live in a lovely, comfortable house, and I feel so lucky to have them in my life.</p> </div> 
 </main>
 
 <footer></footer>

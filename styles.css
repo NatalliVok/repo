@@ -7,7 +7,12 @@
 body{
     background-color: rgb(21, 130, 130);
     height: 10000px;
+    font-family:"Lato", sans-serif; /*вставлення шрифтів*/
    }
+
+   /*font-family: "Lato", sans-serif;*/
+   /*font-family: "Lato", sans-serif;*/
+   /*font-family: "Lato", sans-serif;*/ /*це для інформації шрифти шоб розумфти які вказ*/
 h1{
     color: #a05050;
     text-align: center;
@@ -89,3 +94,26 @@ table {
     border-collapse: collapse;
     text-align: center;
 }
+div{
+    color: blue;
+}
+
+.div_class{
+    color: chocolate;
+}
+
+#div_id{
+    color: green;
+} /* перебивае попередні*/
+
+/*div {
+    color: rgb(226, 43, 86) !important;
+} */ /* important використовуємо дуже рідко перебиває все */
+
+p{
+font-size: 16px;
+}
+
+.container{
+    font-size: 1.2em; /*1.2*1.2*16=23.04px*/
+color: brown;}
